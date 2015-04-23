@@ -18,8 +18,8 @@ template = \
 # the head of the geojson file
 output = \
     ''' \
-{ "type" : "Feature Collection",
-    {"features" : [
+{ "type" : "FeatureCollection",
+    "features" : [
     '''
 
 # loop through the csv by row skipping the first
